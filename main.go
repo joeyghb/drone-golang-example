@@ -52,6 +52,6 @@ func main() {
 	}
 
 	http.HandleFunc("/", handler)
-	log.Println("Joey Test!http server run on " + port + " port")
+	log.Println("Joey test!http server run on " + port + " port")
 	log.Fatal(http.ListenAndServe(":"+port, nil))
 }
